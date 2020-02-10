@@ -1,9 +1,9 @@
 import React from "react";
 import { Nav } from "shards-react";
 
-import Notifications from "./Notifications";
-import UserActions from "./UserActions";
-import Faq from "./Faq";
+import Notifications from "../../../../components/layout/MainNavbar/NavbarNav/Notifications";
+import UserActions from "../../../../components/layout/MainNavbar/NavbarNav/UserActions";
+import Faq from "../../../../components/layout/MainNavbar/NavbarNav/Faq";
 import Support from "./Support";
 
 export default () => (
