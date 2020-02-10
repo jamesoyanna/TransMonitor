@@ -1,9 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Row, Col, Card, CardHeader, CardBody, Button } from "shards-react";
-
-//import RangeDatePicker from "../common/RangeDatePicker";
-//import Chart from "../../utils/chart";
+import Chart from "../../src/utils/Chart";
 
 class UsersOverview extends React.Component {
   constructor(props) {
@@ -86,7 +84,7 @@ class UsersOverview extends React.Component {
         <CardBody className="pt-0">
           <Row className="border-bottom py-2 bg-light">
             <Col sm="6" className="d-flex mb-2 mb-sm-0">
-              <RangeDatePicker />
+            
             </Col>
             <Col>
               <Button
