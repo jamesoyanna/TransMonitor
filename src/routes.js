@@ -5,10 +5,9 @@ import { Redirect } from "react-router-dom";
 import  DefaultLayout from "../src/layouts/Default";
 
 // Route Views
-//import TransactionOverview from "./views/TransactionOverview";
-import UserProfile from "../components/common/";
-import AddTransaction from "./views/AddTransaction";
-//import ComponentsOverview from ".";
+import TransactionOverview from "../src/views/TransactionOverview";
+import UserProfile from "../src/views/UserProfile";
+import AddTransaction from "../src/views/AddTransaction";
 import TransactionTable from "../src/views/TransactionTable";
 
 
@@ -35,11 +34,6 @@ export default [
     component: AddTransaction
   },
  
-  {
-    path: "/components-overview",
-    layout: DefaultLayout,
-    component: ComponentsOverview
-  },
   {
     path: "/transaction-table",
     layout: DefaultLayout,
