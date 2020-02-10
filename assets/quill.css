@@ -1,0 +1,4 @@
+.transaction__editor .ql-container,
+.transaction__editor .ql-editor {
+  min-height: 400px;
+}
