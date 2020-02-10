@@ -2,6 +2,10 @@ import React from "react";
 import PropTypes from "prop-types";
 import { Container, Row, Col } from "shards-react";
 
+import PageTitle from "../../components/common/PageTitle";
+import Statistics from "../../components/common/Statistics";
+
+
 const TransactionOverview = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
