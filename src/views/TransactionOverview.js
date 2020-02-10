@@ -4,7 +4,8 @@ import { Container, Row, Col } from "shards-react";
 
 import PageTitle from "../../components/common/PageTitle";
 import Statistics from "../../components/common/Statistics";
-
+import UsersOverview from "../../components/general/UsersOverview";
+//import ProgressBar from ""
 
 const TransactionOverview = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
@@ -17,7 +18,7 @@ const TransactionOverview = ({ smallStats }) => (
     <Row>
       {smallStats.map((stats, idx) => (
         <Col className="col-lg mb-4" key={idx} {...stats.attrs}>
-          <SmallStats
+          <Statistics
             id={`small-stats-${idx}`}
             variation="1"
             chartData={stats.datasets}
@@ -68,7 +69,7 @@ TransactionOverview.propTypes = {
   smallStats: PropTypes.array
 };
 
-BlogOverview.defaultProps = {
+UsersOverview.defaultProps = {
   smallStats: [
     {
       label: "Daily Transaction Volume",
