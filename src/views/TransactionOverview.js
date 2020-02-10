@@ -7,6 +7,7 @@ import Statistics from "../../components/common/Statistics";
 import UsersOverview from "../../components/general/UsersOverview";
 import ProgressBar from "../../components/components-overview/ProgressBars";
 import PaymentNavbar from "../../components/layout/MainNavbar/NavbarNav/PaymentNavbar";
+import PaymentInfo from "../../src/views/PaymentInfo";
 const TransactionOverview = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
