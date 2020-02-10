@@ -5,8 +5,8 @@ import { Container, Row, Col } from "shards-react";
 import PageTitle from "../../components/common/PageTitle";
 import Statistics from "../../components/common/Statistics";
 import UsersOverview from "../../components/general/UsersOverview";
-//import ProgressBar from ""
-
+import ProgressBar from "../../components/components-overview/ProgressBars";
+//import PaymentNavbar from "../"
 const TransactionOverview = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
