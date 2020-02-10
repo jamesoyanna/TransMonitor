@@ -5,8 +5,8 @@ import { Redirect } from "react-router-dom";
 import  DefaultLayout from "../src/layouts/Default";
 
 // Route Views
-import TransactionOverview from "./views/TransactionOverview";
-import UserProfile from "./views/UserProfile";
+//import TransactionOverview from "./views/TransactionOverview";
+import UserProfile from "../components/common/";
 import AddTransaction from "./views/AddTransaction";
 //import ComponentsOverview from ".";
 import TransactionTable from "../src/views/TransactionTable";
