@@ -152,7 +152,7 @@ UsersOverview.defaultProps = {
         pointHoverRadius: 3
       },
       {
-        label: "Past Month",
+        label: "Month",
         fill: "start",
         data: [
           380,

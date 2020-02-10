@@ -13,7 +13,7 @@ const TransactionOverview = ({ smallStats }) => (
       <PageTitle className="text-sm-left mb-3" />
     </Row>
 
-    {/* Small Stats Blocks */}
+    {/* Statistics Blocks */}
     <Row>
       {smallStats.map((stats, idx) => (
         <Col className="col-lg mb-4" key={idx} {...stats.attrs}>
