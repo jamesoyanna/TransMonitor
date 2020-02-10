@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getTransactions } from "../../data/";
+import { getTransactions } from "../../data/transactionDetails";
 //import Button from "../components/components-overview/Button";
 
 class PaymentInfo extends Component {
@@ -49,7 +49,8 @@ class PaymentInfo extends Component {
                   <button className="btn btn-sm btn">pending</button>
                 </td>
                 <td>
-                  <Button
+                 
+                 
                     liked={transaction.liked}
                     onClick={() => this.handleLike(transaction)}
                   />
