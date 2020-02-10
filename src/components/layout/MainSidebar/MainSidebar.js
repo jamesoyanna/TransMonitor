@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Col } from "shards-react";
 
-import SidebarMainNavbar from "./SidebarMainNavbar";
+import SidebarMainNavbar from "./Si";
 import SidebarSearch from "./SidebarSearch";
 import SidebarNavItems from "./SidebarNavItems";
 
