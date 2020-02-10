@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Col } from "shards-react";
 
-import SidebarMainNavbar from "./Si";
-import SidebarSearch from "./SidebarSearch";
-import SidebarNavItems from "./SidebarNavItems";
+import SidebarMainNavbar from "../../../components/layout/MainSidebar/SidebarMainNavbar";
+import SidebarSearch from "../../../components/layout/MainSidebar/SidebarSearch";
+import SidebarNavItems from "../../../components/layout/MainSidebar/SidebarNavItems";
 
 import { Store } from "../../../flux";
 
