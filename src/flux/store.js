@@ -2,7 +2,7 @@ import { EventEmitter } from "events";
 
 import Dispatcher from "./dispatcher";
 import Constants from "./constants";
-import getSidebarNavItems from "../data/sidebar-nav-items";
+import getSidebarNavItems from "../../src/data/sidebar-nav-items";
 
 let _store = {
   menuVisible: false,
