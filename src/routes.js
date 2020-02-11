@@ -2,7 +2,7 @@ import React from "react";
 import { Redirect } from "react-router-dom";
 
 // Layout Types
-import  DefaultLayout from "../src/layouts/Default";
+import { DefaultLayout } from "../src/layouts";
 
 // Route Views
 import TransactionOverview from "../src/views/TransactionOverview";
@@ -16,10 +16,10 @@ export default [
     path: "/",
     exact: true,
     layout: DefaultLayout,
-    component: () => <Redirect to="/trans-overview" />
+    component: () => <Redirect to="/transaction-overview" />
   },
   {
-    path: "/trans-overview",
+    path: "/transaction-overview",
     layout: DefaultLayout,
     component: TransactionOverview
   },

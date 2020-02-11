@@ -18,14 +18,14 @@ const ProgressBars = () => (
       <Progress multi>
         <Progress bar theme="success" value="80" />
         <Progress theme="warning" bar value="20" />
-      </Progress>
 
-      <Progress
-        theme="success"
-        style={{ height: "5px" }}
-        className="mb-3"
-        value={70}
-      />
+        <Progress
+          theme="success"
+          style={{ height: "5px" }}
+          className="mb-3"
+          value={70}
+        />
+      </Progress>
       <p className="text-muted d-block mb-3">Unreconciled Payments:{}</p>
       <p className="text-muted d-block mb-3">Reconciled Payments:{}</p>
       <p className="text-muted d-block mb-3">Total Payments:{}</p>
