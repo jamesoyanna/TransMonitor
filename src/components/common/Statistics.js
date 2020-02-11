@@ -6,7 +6,7 @@ import { Card, CardBody } from "shards-react";
 
 import Chart from "../../utils/Chart";
 
-class SmallStats extends React.Component {
+class Statistics extends React.Component {
   constructor(props) {
     super(props);
 
@@ -147,54 +147,54 @@ class SmallStats extends React.Component {
   }
 }
 
-SmallStats.propTypes = {
-  /**
-   * The Small Stats variation.
-   */
-  variation: PropTypes.string,
-  /**
-   * The label.
-   */
-  label: PropTypes.string,
-  /**
-   * The value.
-   */
-  value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  /**
-   * The percentage number or string.
-   */
-  percentage: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
-  /**
-   * Whether is a value increase, or not.
-   */
-  increase: PropTypes.bool,
-  /**
-   * The Chart.js configuration object.
-   */
-  chartConfig: PropTypes.object,
-  /**
-   * The Chart.js options object.
-   */
-  chartOptions: PropTypes.object,
-  /**
-   * The chart data.
-   */
-  chartData: PropTypes.array.isRequired,
-  /**
-   * The chart labels.
-   */
-  chartLabels: PropTypes.array
-};
+ Statistics.propTypes = {
+   /**
+    * The Small Stats variation.
+    */
+   variation: PropTypes.string,
+   /**
+    * The label.
+    */
+   label: PropTypes.string,
+   /**
+    * The value.
+    */
+   value: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+   /**
+    * The percentage number or string.
+    */
+   percentage: PropTypes.oneOfType([PropTypes.number, PropTypes.string]),
+   /**
+    * Whether is a value increase, or not.
+    */
+   increase: PropTypes.bool,
+   /**
+    * The Chart.js configuration object.
+    */
+   chartConfig: PropTypes.object,
+   /**
+    * The Chart.js options object.
+    */
+   chartOptions: PropTypes.object,
+   /**
+    * The chart data.
+    */
+   chartData: PropTypes.array.isRequired,
+   /**
+    * The chart labels.
+    */
+   chartLabels: PropTypes.array
+ };
 
-SmallStats.defaultProps = {
-  increase: true,
-  percentage: 0,
-  value: 0,
-  label: "Label",
-  chartOptions: Object.create(null),
-  chartConfig: Object.create(null),
-  chartData: [],
-  chartLabels: []
-};
+ Statistics.defaultProps = {
+   increase: true,
+   percentage: 0,
+   value: 0,
+   label: "Label",
+   chartOptions: Object.create(null),
+   chartConfig: Object.create(null),
+   chartData: [],
+   chartLabels: []
+ };
 
-export default SmallStats;
+export default Statistics;
