@@ -23,6 +23,13 @@ export default [
     layout: DefaultLayout,
     component: TransactionOverview
   },
+
+  {
+    path: "/transaction",
+    layout: DefaultLayout,
+    component: AddTransaction
+  },
+
   {
     path: "/user-profile",
     layout: DefaultLayout,
@@ -33,11 +40,10 @@ export default [
     layout: DefaultLayout,
     component: AddTransaction
   },
- 
+
   {
     path: "/transaction-table",
     layout: DefaultLayout,
     component: TransactionTable
   }
- 
 ];
