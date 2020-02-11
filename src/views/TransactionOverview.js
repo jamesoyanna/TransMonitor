@@ -3,10 +3,10 @@ import PropTypes from "prop-types";
 import { Container, Row, Col } from "shards-react";
 
 import PageTitle from "../components/common/PageTitle";
-import Statistics from "../../components/common/Statistics";
-import UsersOverview from "../../components/general/UsersOverview";
-import ProgressBar from "../../components/components-overview/ProgressBars";
-import PaymentNavbar from "../../components/layout/MainNavbar/NavbarNav/PaymentNavbar";
+import Statistics from "../components/common/Statistics";
+import UsersOverview from "../components/general/UsersOverview";
+import ProgressBar from "../components/components-overview/ProgressBars";
+import PaymentNavbar from "../components/layout/MainNavbar/NavbarNav/PaymentNavbar";
 import PaymentInfo from "../../src/views/PaymentInfo";
 import Pagination from "../../src/views/Pagination";
 const TransactionOverview = ({ smallStats }) => (

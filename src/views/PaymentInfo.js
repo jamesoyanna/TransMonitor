@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { getTransactions } from "../../data/transactionDetails";
+import { getTransactions } from "../data/transactionDetails";
 //import Button from "../components/components-overview/Button";
 
 class PaymentInfo extends Component {

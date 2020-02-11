@@ -1,8 +1,8 @@
 import React from "react";
 import { Container, Row, Col, Card, CardHeader, CardBody } from "shards-react";
 
-import PageTitle from "../../components/common/PageTitle";
-import PaymentNavbar from "../../components/layout/MainNavbar/NavbarNav/PaymentNavbar";
+import PageTitle from "../components/common/PageTitle";
+import PaymentNavbar from "../components/layout/MainNavbar/NavbarNav/PaymentNavbar";
 
 const TransactionTable = () => (
   <Container fluid className="main-content-container px-4">

@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import { Row, Col, Card, CardHeader, CardBody, Button } from "shards-react";
-import Chart from "../../src/utils/Chart";
+import Chart from "../../utils/Chart";
 
 class UsersOverview extends React.Component {
   constructor(props) {
