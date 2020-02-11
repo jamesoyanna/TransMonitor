@@ -3,9 +3,9 @@ import PropTypes from "prop-types";
 import classNames from "classnames";
 import { Container, Navbar } from "shards-react";
 
-import NavbarSearch from "../../../components/layout/MainNavbar/NavbarSearch";
-import NavbarNav from "../../../components/layout/MainNavbar/NavbarNav/NavbarNav";
-import NavbarToggle from "../../../components/layout/MainNavbar/NavbarToggle";
+import NavbarSearch from "../MainNavbar/NavbarSearch";
+import NavbarNav from "../MainNavbar/NavbarNav/NavbarNav";
+import NavbarToggle from "../MainNavbar/NavbarToggle";
 
 const MainNavbar = ({ layout, stickyTop }) => {
   const classes = classNames(

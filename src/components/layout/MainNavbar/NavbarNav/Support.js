@@ -1,6 +1,6 @@
 import React from "react";
 import { NavItem, NavLink } from "shards-react";
-class Notifications extends React.Component {
+class Support extends React.Component {
   constructor(props) {
     super(props);
 
@@ -28,4 +28,4 @@ class Notifications extends React.Component {
   }
 }
 
-export default Notifications;
+export default Support;

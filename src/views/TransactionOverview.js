@@ -3,12 +3,13 @@ import PropTypes from "prop-types";
 import { Container, Row, Col } from "shards-react";
 
 import PageTitle from "../components/common/PageTitle";
-import Statistics from "../components/common/Statistics";
+import SmallStats from "../components/common/SmallStats";
 import UsersOverview from "../components/general/UsersOverview";
 import ProgressBar from "../components/components-overview/ProgressBars";
 import PaymentNavbar from "../components/layout/MainNavbar/NavbarNav/PaymentNavbar";
 import PaymentInfo from "../../src/views/PaymentInfo";
 import Pagination from "../../src/views/Pagination";
+
 const TransactionOverview = ({ smallStats }) => (
   <Container fluid className="main-content-container px-4">
     {/* Page Header */}
@@ -16,11 +17,11 @@ const TransactionOverview = ({ smallStats }) => (
       <PageTitle className="text-sm-left mb-3" />
     </Row>
 
-    {/* Statistics Blocks */}
+    {/* SmallStats Blocks */}
     <Row>
       {smallStats.map((stats, idx) => (
         <Col className="col-lg mb-4" key={idx} {...stats.attrs}>
-          <Statistics
+          <SmallStats
             id={`small-stats-${idx}`}
             variation="1"
             chartData={stats.datasets}
@@ -41,7 +42,7 @@ const TransactionOverview = ({ smallStats }) => (
         <UsersOverview />
       </Col>
 
-      {/* Users by Device */}
+      {/* Progress Bar */}
       <Col lg="4" md="6" sm="12" className="mb-4">
         <ProgressBar />
       </Col>
@@ -51,7 +52,7 @@ const TransactionOverview = ({ smallStats }) => (
         <PaymentNavbar />
       </Col>
 
-      {/* New Draft */}
+      {/* Payment Info */}
       <Col lg="10" md="6" sm="12" className="mb-4">
         <PaymentInfo />
       </Col>
@@ -71,7 +72,7 @@ TransactionOverview.propTypes = {
   smallStats: PropTypes.array
 };
 
-UsersOverview.defaultProps = {
+TransactionOverview.defaultProps = {
   smallStats: [
     {
       label: "Daily Transaction Volume",
