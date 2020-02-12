@@ -124,40 +124,13 @@ UsersOverview.propTypes = {
 UsersOverview.defaultProps = {
   title: "Today: 7th February, 2020",
   chartData: {
-    labels: [
-      "January",
-      "February",
-      "March",
-      "April",
-      "May",
-      "June",
-      "July",
-      "August",
-      "September",
-      "October",
-      "November",
-      "December"
-    ],
+    labels: ["", "", "", "", "", "", "", "", "", "", "", ""],
     datasets: [
       {
-        label: "",
-        fill: "start",
-        data: [500, 800, 320, 180, 240, 320, 320, 230, 340, 340, 120, 345],
-        backgroundColor: "rgba(0,123,255,0.1)",
-        borderColor: "rgba(0,123,255,1)",
-        pointBackgroundColor: "#ffffff",
-        pointHoverBackgroundColor: "rgb(0,123,255)",
-        borderWidth: 1.5,
-        pointRadius: 0,
-        pointHoverRadius: 3
-      },
-      {
-        label: "Month",
+        label: " ",
         fill: "start",
         data: [
-          380,
-          430,
-          120,
+           300,
           230,
           410,
           740,
@@ -171,28 +144,12 @@ UsersOverview.defaultProps = {
           380,
           291,
           620,
-          700,
-          300,
-          630,
-          402,
-          320,
-          380,
-          289,
-          410,
-          300,
-          530,
-          630,
-          720,
-          780,
-          1200
+          700
         ],
-        backgroundColor: "rgba(255,65,105,0.1)",
-        borderColor: "rgba(255,65,105,1)",
+        backgroundColor: "#99ccff",
         pointBackgroundColor: "#ffffff",
         pointHoverBackgroundColor: "rgba(255,65,105,1)",
-        borderDash: [3, 3],
         borderWidth: 1,
-        pointRadius: 0,
         pointHoverRadius: 2,
         pointBorderColor: "rgba(255,65,105,1)"
       }
