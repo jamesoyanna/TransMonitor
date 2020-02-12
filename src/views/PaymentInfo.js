@@ -48,13 +48,7 @@ class PaymentInfo extends Component {
                 <td>
                   <button className="btn btn-sm btn">pending</button>
                 </td>
-                <td>
-                 
-                 
-                    liked={transaction.liked}
-                    onClick={() => this.handleLike(transaction)}
-                  />
-                </td>
+                
               </tr>
             ))}
           </tbody>
