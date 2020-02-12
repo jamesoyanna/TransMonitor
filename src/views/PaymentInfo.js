@@ -40,15 +40,25 @@ class PaymentInfo extends Component {
           <tbody>
             {this.state.transactions.map(transaction => (
               <tr key={transaction._id}>
-                <td>{transaction.title}</td>
+                <td>{transaction.ItemType}</td>
                 <td>{transaction.price.name}</td>
-                <td>{transaction.transactionNo}</td>
+                <td>{transaction.TransactionNo}</td>
                 <td>{transaction.Time}</td>
 
                 <td>
-                  <button className="btn btn-sm btn">pending</button>
+                  <button
+                    style={{
+                      border: "1px solid",
+                      borderRadius: 12,
+                      width: 114,
+                      height: 35,
+                      color: "#009900"
+                    }}
+                    className="btn btn-sm btn"
+                  >
+                    &#x2688; Reconcilled
+                  </button>
                 </td>
-                
               </tr>
             ))}
           </tbody>

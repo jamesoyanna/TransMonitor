@@ -14,7 +14,7 @@ export default function() {
     {
       title: "Reconcilled Payments",
       htmlBefore: '<i class="material-icons">account_balance_wallet</i>',
-      to: "/add-transaction"
+      to: "/"
     },
     {
       title: "Un-reconcilled payments",
@@ -29,7 +29,7 @@ export default function() {
     {
       title: "All Orders",
       htmlBefore: '<i class="material-icons">description</i>',
-      to: "/user-profile"
+      to: "/"
     },
 
     {
