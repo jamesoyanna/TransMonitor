@@ -1,4 +1,3 @@
-import * as itemsAPI from "./Items";
 
 const transactions = [
   {
@@ -75,25 +74,6 @@ export function getTransaction(id) {
   return transactions.find(m => m._id === id);
 }
 
-export function saveTransactions(transaction) {
-  let TransactionHistory = transactions.find(m => m._id === transaction._id) || {};
-  TransactionHistory.name = transaction.name;
-  TransactionHistory.price = itemsAPI.items.find(
-    g => g._id === transaction.priceId
-  );
-  TransactionHistory.TransactionNo = transaction.TransactionNo;
-  TransactionHistory.Time = transaction.Time;
 
-  if (!TransactionHistory._id) {
-    TransactionHistory._id = Date.now();
-    transactions.push(TransactionHistory);
-  }
 
-  return TransactionHistory;
-}
 
-export function deleteTransaction(id) {
-  let TransactionHistory = transactions.find(m => m._id === id);
-  transactions.splice(transactions.indexOf(TransactionHistory), 1);
-  return TransactionHistory;
-}
