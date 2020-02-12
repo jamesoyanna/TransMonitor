@@ -3,33 +3,45 @@ export default function() {
     {
       title: "Overview",
       to: "/transaction-overview",
-      htmlBefore: '<i class="material-icons">edit</i>',
+      htmlBefore: '<i class="material-icons">dashboard</i>',
       htmlAfter: ""
     },
     {
       title: "All Payments",
-      htmlBefore: '<i class="material-icons">vertical_split</i>',
-      to: "/transactions"
+      htmlBefore: '<i class="material-icons">account_balance_wallet</i>',
+      to: "/transaction-table"
     },
     {
       title: "Reconcilled Payments",
-      htmlBefore: '<i class="material-icons">note_add</i>',
+      htmlBefore: '<i class="material-icons">account_balance_wallet</i>',
       to: "/add-transaction"
     },
     {
       title: "Un-reconcilled payments",
-      htmlBefore: '<i class="material-icons">view_module</i>',
-      to: "/components-overview"
+      htmlBefore: '<i class="material-icons">account_balance_wallet</i>',
+      to: "/"
     },
     {
       title: "Manual settlement",
-      htmlBefore: '<i class="material-icons">table_chart</i>',
-      to: "/tables"
+      htmlBefore: '<i class="material-icons">radio_button_checked</i>',
+      to: "/"
     },
     {
       title: "All Orders",
-      htmlBefore: '<i class="material-icons">person</i>',
+      htmlBefore: '<i class="material-icons">description</i>',
       to: "/user-profile"
+    },
+
+    {
+      title: "Pending Orders",
+      htmlBefore: '<i class="material-icons">description</i>',
+      to: "/"
+    },
+
+    {
+      title: "reconcilled Orders",
+      htmlBefore: '<i class="material-icons">description</i>',
+      to: "/"
     },
 
     {

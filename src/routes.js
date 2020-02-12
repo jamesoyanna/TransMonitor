@@ -25,7 +25,7 @@ export default [
   },
 
   {
-    path: "/transaction",
+    path: "/add-transaction",
     layout: DefaultLayout,
     component: AddTransaction
   },
