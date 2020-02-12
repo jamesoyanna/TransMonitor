@@ -124,7 +124,7 @@ UsersOverview.propTypes = {
 UsersOverview.defaultProps = {
   title: "Today: 7th February, 2020",
   chartData: {
-    labels: ["", "", "", "", "", "", "", "", "", "", "", ""],
+    labels: [ "", "", "", "", "", "", "", "", "", "", ""],
     datasets: [
       {
         label: " ",
