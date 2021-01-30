@@ -31,7 +31,7 @@ class PaymentInfo extends Component {
             <tr>
               <th>Item Type</th>
               <th>Price</th>
-              <th>transaction No</th>
+              <th>transaction Number</th>
               <th>Time</th>
               <th />
               <th />

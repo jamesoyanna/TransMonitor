@@ -44,13 +44,13 @@ const TransactionTable = () => (
               </thead>
               <tbody>
                 <tr>
-                  <td>Apple Mac Book 15" 250 SSD 12GB</td>
+                  <td>Windows 19" 250 SSD 120GB</td>
                   <td>$73430</td>
                   <td>Gdańsk</td>
                   <td>12:30</td>
                 </tr>
                 <tr>
-                  <td>Apple Mac Book 15" 250 SSD 12GB</td>
+                  <td>Asus windows 17" 250 SSD 12GB</td>
                   <td>$73430</td>
                   <td>1234567890</td>
                   <td>12:30</td>
